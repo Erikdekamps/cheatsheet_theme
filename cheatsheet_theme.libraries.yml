@@ -1,0 +1,15 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+    # Local
+      assets/css/style.css: {}
+  js:
+    # Local
+    assets/js/custom.js: {}
+    # External
+    https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js: { type: external }
+    https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js: { type: external }
+  dependencies:
+    - core/jquery
+    - core/drupal
